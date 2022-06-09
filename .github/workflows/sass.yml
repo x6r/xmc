@@ -1,0 +1,29 @@
+on: [push, workflow_dispatch]
+
+jobs:
+  build_css:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+
+      - name: compile
+        uses: AAGaming00/sass-build@master
+        with:
+          source: xmc.scss
+          destination: xmc.css
+
+      - name: commit
+        run: |
+          git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config --local user.name 'github-actions[bot]'
+          git add xmc.css
+          git diff-index --quiet HEAD || git commit -m 'copium'
+      - name: push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

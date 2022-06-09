@@ -1,0 +1,42 @@
+:root {
+	--_color0: #231d29;
+	--_color1: #e83f80;
+	--_color2: #a2baa8;
+	--_color3: #eacac0;
+	--_color4: #9985d1;
+	--_color5: #e68ac1;
+	--_color6: #aabae7;
+	--_color7: #dedbeb;
+
+	--_color8: #302838;
+	--_color9: #f55d8f;
+	--_color10: #bfd1c3;
+	--_color11: #f0ddd8;
+	--_color12: #b4a4de;
+	--_color13: #edabd2;
+	--_color14: #c4d1f5;
+	--_color15: #edebf7;
+
+	--_colorFG: var(--_color7);
+
+	--primary: #302838;
+	--secondary: #2a2331;
+	--tertiary: #231d29;
+	--primary-rgb: 48, 40, 56;
+	--secondary-rgb: 42, 35, 49;
+	--tertiary-rgb: 35, 29, 41;
+
+	--accent: var(--_color1);
+	--accent-rgb: 232, 63, 128;
+	--red: var(--_color6);
+	--text: var(--_color7);
+	--link: var(--_color10);
+	--highlight: #634e75;
+	--highlight-rgb: 99, 78, 117;
+
+	--status-online: var(--_color2);
+	--status-idle: var(--_color3);
+	--status-dnd: var(--_color5);
+	--status-offline: var(--tertiary);
+	--status-streaming: var(--_color4);
+}

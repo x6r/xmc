@@ -1,0 +1,8 @@
+{
+	"name": "xmc",
+	"version": "0.1.0",
+	"author": "cyn",
+	"theme": "./xmc.scss",
+	"description": "xmc",
+	"license": "MIT"
+}

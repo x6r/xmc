@@ -1,0 +1,5 @@
+:root {
+	--font-primary: "Iosevka Comfy", "Arabic UI Display" !important;
+	--font-display: var(--font-primary) !important;
+	--font-code: "Iosevka Comfy", "Arabic UI Display" !important;
+}

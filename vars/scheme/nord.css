@@ -1,0 +1,44 @@
+:root {
+	--_color0: #3b4252;
+	--_color1: #bf616a;
+	--_color2: #a3be8c;
+	--_color3: #ebcb8b;
+	--_color4: #81a1c1;
+	--_color5: #b48ead;
+	--_color6: #88c0d0;
+	--_color7: #e5e9f0;
+
+	--_color8: #4c566a;
+	--_color9: #bf616a;
+	--_color10: #a3be8c;
+	--_color11: #ebcb8b;
+	--_color12: #81a1c1;
+	--_color13: #b48ead;
+	--_color14: #88c0d0;
+	--_color15: #eceff4;
+
+	--_colorFG: #cdd3dd;
+
+	--primary: #434c5e;
+	--secondary: #3b4252;
+	--tertiary: #2e3440;
+	--primary-rgb: 67, 76, 94;
+	--secondary-rgb: 59, 66, 82;
+	--tertiary-rgb: 46, 52, 64;
+
+	--accent: #88c0d0;
+	--accent-rgb: 136, 192, 208;
+	--red: var(--_color1);
+	--text: var(--_colorFG);
+	--link: var(--_color12);
+	--highlight: #8fbcbb;
+	--highlight-rgb: 143, 188, 187;
+
+	--status-online: var(--_color2);
+	--status-idle: var(--_color3);
+	--status-dnd: var(--_color1);
+	--status-offline: var(--_color8);
+	--status-streaming: var(--_color5);
+
+	--titlebar-color: #4c566a !important;
+}

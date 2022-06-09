@@ -1,0 +1,56 @@
+[class*="botTag-"] {
+	font-size: 0%;
+	padding: 0 !important;
+	background: none !important;
+}
+
+[class*="botTag-"]:not([class*="botTagCompact-"]) {
+	margin-left: 6px;
+}
+
+[class*="botTag-"] [class*="botText-"] {
+	font-size: 0;
+}
+
+:not([class^="repliedMessage-"]) [class*="botTagCompact-"] {
+	margin-right: -6px !important;
+}
+[class^="repliedMessage-"] [class*="botTagCompact-"] {
+	margin-right: 4px !important;
+	margin-left: 4px !important;
+}
+
+[class*="botTag-"] svg[class^="botTagVerified-"] {
+	width: 16px;
+	height: 16px;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABlSURBVDhPzY5RCsAwCEM9+m6+TYsj2ujaj8EePGitCZXfchKXGMsHcaGIB7NNCQ/cOnYvCqYQ6jwzUhICqBPmnxY4+Rx8+0EG30xSoIQlB2dmEVbmZWZToIyFOtiGEQxsBTcRuQCANOfCY5uAHgAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==");
+}
+
+[class*="botTag-"] svg[class^="botTagVerified-"] > path {
+	display: none;
+}
+
+[class*="botTag-"]:after {
+	visibility: visible;
+	content: "";
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	position: relative;
+	top: 0;
+	margin-left: 0;
+	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABxSURBVDhP1Y9RDgARDEQd3dHczHayyog22v3bSV5QPFU4tdYeZVxZQbG1dgUZgiVBIRrq4BTgBVm6YD8o6AbvF38jwIGTkOCGK8ggV3ScUWMIFs32MzEF1n/5VQV1VyDLTcDgHM83wRdGRzNayCAp5QETRCGPhz4v+gAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==");
+	background-size: 16px 16px;
+}
+
+[class*="message-"] [class*="botTag-"]:after {
+	top: 4px !important;
+}
+
+[class*="message-"][class*="compact-"] [class*="botTag-"]:after {
+	top: 3px !important;
+}
+
+[class^="repliedMessage-"] [class*="botTagCompact-"]:after {
+	top: 1px !important;
+}

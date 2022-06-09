@@ -1,0 +1,51 @@
+[class^="listItem-"]:hover [class^="pill-"] {
+	display: none;
+}
+[class^="listItem-"] [class^="pill-"] {
+	width: 52px !important;
+	height: 56px !important;
+	top: -4px !important;
+	left: 11px;
+	z-index: 100;
+}
+[class^="listItem-"] [class^="pill-"] > span {
+	display: none;
+}
+[class^="listItem-"] [class^="pill-"] > span[style*="height: 8px;"] {
+	display: block;
+	left: 4px;
+	bottom: 2px;
+	height: 12px !important;
+	width: 12px !important;
+	border-radius: 100% !important;
+	transform: none !important;
+	z-index: 100;
+	background: var(--red);
+}
+[class^="listItem-"] [class^="pill-"] > span[style*="height: 40px;"] {
+	display: block;
+	background: transparent;
+	height: 46px !important;
+	width: 46px !important;
+	right: 4px;
+	top: 5px !important;
+	border-radius: 10% !important;
+	box-shadow: 0 0 0 2.5px var(--accent);
+	z-index: 100;
+}
+
+[class^="listItem-"]:hover [class^="pill-"] span {
+	opacity: 0 !important;
+}
+
+[class^="listItem-"]:not(:hover) [class^="pill-"] span {
+	opacity: 0 !important;
+}
+[class^="listItem-"]:not(:hover) [class^="pill-"] span[style^="opacity: 0.7"],
+[class^="listItem-"]:not(:hover) [class^="pill-"] span[style^="opacity: 1"] {
+	opacity: 1 !important;
+}
+
+[class^="listItem-"] [class^="upperBadge-"] {
+	z-index: 500;
+}

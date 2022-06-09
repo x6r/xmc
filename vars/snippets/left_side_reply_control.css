@@ -1,0 +1,36 @@
+[class^="channelTextArea-"] > [class^="attachedBars-"] [class^="replyBar-"],
+[class^="channelTextArea-"]
+	> [class^="attachedBars-"]
+	[class^="threadSuggestionBar-"] {
+	background: transparent;
+}
+
+[class^="channelTextArea-"] > [class^="attachedBars-"] [class^="replyBar-"] {
+	display: flex;
+	flex-direction: row-reverse;
+	align-self: flex-start;
+}
+[class^="channelTextArea-"]
+	> [class^="attachedBars-"]
+	[class^="replyBar-"]
+	> [class^="actions-"] {
+	flex-direction: row-reverse;
+}
+[class^="channelTextArea-"]
+	> [class^="attachedBars-"]
+	[class^="replyBar-"]
+	[class*="replyLabel-"] {
+	margin-left: 12px;
+}
+
+[class^="channelTextArea-"]
+	> [class^="attachedBars-"]
+	[class^="replyBar-"]
+	> [class^="actions-"]::after {
+	position: relative;
+	content: "";
+	background-color: var(--background-modifier-accent);
+	width: 1px;
+	height: 20px;
+	left: 100%;
+}

@@ -1,0 +1,45 @@
+.theme-dark,
+:root {
+	--_color0: #484f58;
+	--_color1: #f85149;
+	--_color2: #3fb950;
+	--_color3: #d29922;
+	--_color4: #58a6ff;
+	--_color5: #bc8cff;
+	--_color6: #39c5cf;
+	--_color7: #b1bac4;
+
+	--_color8: #6e7681;
+	--_color9: #ff7b72;
+	--_color10: #56d364;
+	--_color11: #e3b341;
+	--_color12: #79c0ff;
+	--_color13: #d2a8ff;
+	--_color14: #56d4dd;
+	--_color15: #f0f6fc;
+
+	--_colorFG: var(--_color7);
+
+	--primary: #141414;
+	--secondary: #111111;
+	--tertiary: #0c0c0c;
+	--primary-rgb: 20, 20, 20;
+	--secondary-rgb: 17, 17, 17;
+	--tertiary-rgb: 12, 12, 12;
+
+	--accent: #7289da;
+	--accent-rgb: 114, 137, 218;
+	--red: #f04747;
+	--text: #dcddde;
+	--link: #00aff4;
+	--highlight: #747474;
+	--highlight-rgb: 116, 116, 116;
+
+	--status-online: #43b581;
+	--status-idle: #faa61a;
+	--status-dnd: #f04747;
+	--status-offline: #747f8d;
+	--status-streaming: #593695;
+
+	--titlebar-color: var(--tertiary) !important;
+}

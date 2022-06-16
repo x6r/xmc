@@ -1,22 +1,22 @@
-@use "./vars/scheme/amora.css";
-// @use "./vars/scheme/nord.css";
-// @use "./vars/scheme/catppuccin.css";
-// @use "./vars/scheme/annie-dark.css";
+@use "./scheme/amora.css";
+// @use "./scheme/nord.css";
+// @use "./scheme/catppuccin.css";
+// @use "./scheme/annie-dark.css";
 
-// @use "./vars/font/custom.css";
-// @use "./vars/font/terminus.css";
-@use "./vars/font/unifont.css";
+// @use "./font/custom.css";
+// @use "./font/terminus.css";
+@use "./font/unifont.css";
 
-@use "./vars/textarea/mobile.css";
+@use "./textarea/mobile.css";
 
-@use "./vars/unread/circles.css";
+@use "./unread/circles.css";
 
-@use "./vars/snippets/bot_tag_9x.css";
-@use "./vars/snippets/nyantoro_progress_bar.css";
-@use "./vars/snippets/cozy_compact_hybrid.css";
-@use "./vars/snippets/endpwn_style_status_icons.css";
-@use "./vars/snippets/old_roles.css";
-@use "./vars/snippets/hide_account_details.css";
-@use "./vars/snippets/left_side_reply_control.css";
+@use "./snippets/bot_tag_9x.css";
+@use "./snippets/nyantoro_progress_bar.css";
+@use "./snippets/cozy_compact_hybrid.css";
+@use "./snippets/endpwn_style_status_icons.css";
+@use "./snippets/old_roles.css";
+@use "./snippets/hide_account_details.css";
+@use "./snippets/left_side_reply_control.css";
 
 @use "./base.css";

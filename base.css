@@ -927,7 +927,7 @@ form [class*="typing-"] {
 	padding-top: 8px !important;
 }
 
-[class^="userPopout-"] [class^="role-"] {
+[class^="userPopout-"] [class*="role-"] {
 	background: var(--background-modifier-selected);
 }
 

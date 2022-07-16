@@ -72,13 +72,13 @@ html:not(.a11y-font-scaled-down)
 [class*="message-"]
 	> [class^="wrapper-"]
 	> [class^="contents-"]
-	> [class^="avatar-"],
+	[class^="avatar-"],
 [class^="messagesWrapper-"]
 	[class^="scrollerInner-"]
 	> [class^="wrapper-"]
 	> [class^="contents-"]
-	> [class^="avatar-"],
-[class*="message-"] > [class^="contents-"] > [class^="avatar-"] {
+	[class^="avatar-"],
+[class*="message-"] > [class^="contents-"] [class^="avatar-"] {
 	width: 20px;
 	height: 20px;
 	left: 16px;
@@ -87,7 +87,7 @@ html:not(.a11y-font-scaled-down)
 [class*="message-"]
 	> [class^="wrapper-"]
 	> [class^="contents-"]
-	> [class^="avatar-"] {
+	[class^="avatar-"] {
 	left: 0 !important;
 }
 

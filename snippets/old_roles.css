@@ -44,3 +44,9 @@
 	fill: #ffffff;
 	filter: brightness(1);
 }
+
+[class^="roleRemoveButton-"] [class*="roleDot-"] {
+	width: 1em !important;
+	height: 1em !important;
+	margin-top: 0.25em;
+}

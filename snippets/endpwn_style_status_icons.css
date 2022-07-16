@@ -1,24 +1,24 @@
-[class^="member-"] [class^="avatar-"] > [class^="wrapper-"] > svg,
+[class^="member-"] [class^="avatar-"] [class*="wrapper-"] > svg,
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"],
-[class^="channel-"] [class^="avatar-"] > [class^="wrapper-"] > svg,
+[class^="channel-"] [class^="avatar-"] [class*="wrapper-"] > svg,
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"],
@@ -35,13 +35,13 @@
 
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> rect,
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> rect,
@@ -57,14 +57,14 @@
 
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
 	circle,
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
@@ -75,14 +75,14 @@
 
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
 	circle:nth-child(1),
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
@@ -92,14 +92,14 @@
 
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
 	circle:nth-child(2),
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
@@ -109,14 +109,14 @@
 
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class^="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
 	circle:nth-child(3),
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	> svg[class^="cursorDefault-"]
 	> svg[class^="dots-"]
@@ -126,122 +126,122 @@
 
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#43b581"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#faa61a"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#f04747"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#747f8d"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#593695"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#3ba55c"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#ed4245"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
 [class^="member-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#43b581"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#faa61a"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#f04747"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#747f8d"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#593695"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#3ba55c"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="#ed4245"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(38, calc(var(--saturation-factor, 1) * 95.7%), 54.1%)"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(214, calc(var(--saturation-factor, 1) * 9.9%), 50.4%)"],
 [class^="channel-"]
 	[class^="avatar-"]
-	> [class^="wrapper-"]
+	[class*="wrapper-"]
 	> svg
 	rect[fill="hsl(262, calc(var(--saturation-factor, 1) * 46.8%), 39.8%)"] {
 	mask: none !important;

@@ -1,0 +1,46 @@
+.theme-dark,
+:root {
+	--_color0: #7a8478;
+	--_color1: #e67e80;
+	--_color2: #a7c080;
+	--_color3: #dbbc7f;
+	--_color4: #7fbbb3;
+	--_color5: #d699b6;
+	--_color6: #83c092;
+	--_color7: #d3c6aa;
+
+	--_color8: #5c6a72;
+	--_color9: #f85552;
+	--_color10: #8da101;
+	--_color11: #dfa000;
+	--_color12: #3a94c5;
+	--_color13: #df69ba;
+	--_color14: #35a77c;
+	--_color15: #9da9a0;
+
+	--_colorFG: var(--_color7);
+
+	--primary: #323c41;
+	--secondary: #2b3339;
+	--tertiary: #1e2327;
+	--primary-rgb: 50, 60, 65;
+	--secondary-rgb: 43, 51, 57;
+	--tertiary-rgb: 30, 35, 39;
+
+	--accent: var(--_color2);
+	--accent-rgb: 167, 192, 128;
+	--red: var(--_color1);
+	--text: var(--_color7);
+	--link: var(--_color12);
+	--highlight: var(--_color0);
+	--highlight-rgb: 122, 132, 120;
+
+	--status-online: var(--_color2);
+	--status-idle: var(--_color3);
+	--status-dnd: var(--_color1);
+	--status-offline: var(--tertiary);
+	--status-streaming: var(--_color5);
+
+	--interactive-hover: var(--_color6) !important;
+	--interactive-active: var(--_color15) !important;
+}
